@@ -8,11 +8,13 @@ This project compares traditional computer vision methods (SIFT + Bag-of-Words +
 - 10 classes, 32x32 RGB images  
 - Used for both traditional CV and deep learning  
 - Requires `cifar-10-python.tar.gz` placed in the repo root
+- Download it from "https://www.cs.toronto.edu/~kriz/cifar.html"
 
 ### iCubWorld28
 - Real-world robotic vision dataset with multiple object classes  
 - Used for both SIFT + BoW + SVM and CNN/ResNet models  
 - User must update dataset paths in the notebook
+- Download it from "https://robotology.github.io/iCubWorld/#icubworld-28-modal"
 
 ## Methods
 
@@ -46,8 +48,6 @@ This project compares traditional computer vision methods (SIFT + Bag-of-Words +
 ```
 project/
 ├── traditional_vision_baselines.py
-├── cifar-10-python.tar.gz
-├── data/ (optional)
 └── README.md
 ```
 
